@@ -1,0 +1,156 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.body{
+
+    padding: 0;
+    margin: 0;
+}
+.colors {
+    padding: 10px;
+    /* margin: 10px; */
+    /* width: 100%; */
+    /* max-width: 400px; */
+    background-color: hsl(0, 5%, 89%);
+    /* width: fit-content; */
+}
+
+.colors p {
+    padding: 10px;
+}
+
+
+
+
+.first-ball1 {
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    margin: 5px;
+    /* border-bottom: 2px solid red; */
+    background-color: red;
+
+}
+
+.first-ball2 {
+    border-radius: 50%;
+    width: 35px;
+    margin: 5px;
+    height: 35px;
+    background-color: blue;
+
+}
+
+.first-ball3 {
+    border-radius: 50%;
+    width: 35px;
+       margin: 5px;
+    height: 35px;
+    background-color: black;
+
+}
+
+.buttons {
+    display: flex;
+    margin-right: 90px;
+}
+
+
+.btn {
+
+    gap: 15px;
+    border-radius: 40px;
+    font-size: 20px;
+    padding: 5px 20px;
+
+
+}
+
+.buttons .btn {
+    width: 100%;
+    margin: 5px;
+     border-color: blue;
+
+
+}
+
+
+.buttons2 {
+    display: flex;
+    margin-right: 90px;
+}
+
+
+.btn2 {
+    display: flex;
+    align-items: center;
+    align-items: center;
+
+    gap: 15px;
+    border-radius: 40px;
+    font-size: 20px;
+    padding: 5px 50px;
+    margin-right: 70px;
+
+
+}
+
+.buttons2 .btn2 {
+    width: 100%;
+    margin: 5px;
+
+}
+
+.btn2{
+    border-color: blue;
+}
+.btn2{
+    /* border: none; */
+}
+
+
+
+
+.buttons3 {
+    display: flex;
+    margin-right: 90px;
+    margin-bottom: 20px;
+      border-color: blue;
+    
+}
+
+
+.btn3 {
+    display: flex;
+    align-items: center;
+    align-items: center;
+
+    gap: 15px;
+    border-radius: 40px;
+    font-size: 20px;
+    padding: 5px 25px;
+    margin-right: 70px;
+
+
+}
+
+.buttons3 .btn3 {
+    width: 100%;
+    margin: 5px;
+
+}
+
+.btn3{
+    border-color: blue;
+}
+.btn3{
+   
+
+       border-bottom: 80px;
+}

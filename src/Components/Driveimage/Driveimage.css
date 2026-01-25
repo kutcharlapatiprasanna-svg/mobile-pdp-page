@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* MOBILE ONLY */
+@media screen and (max-width: 480px) {
+
+  .drive {
+    width: 100%;
+     max-width: 480px;       
+     margin: 0    to;         
+    background-color: #0b1d4a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 0;          
+  }
+
+  .drive img {
+    height: 100px;            /* 👈 SMALL IMAGE */
+    width: auto;
+    /* object-fit: contain; */
+    /* display: block; */
+  }
+
+}

@@ -1,0 +1,68 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+
+
+
+@media screen and (max-width: 480px) {
+.resources{
+
+    margin: 10px 20px;
+    padding: 10px;
+    font-family: sans-serif;
+   
+    
+}
+
+
+
+.resources-process{
+
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+
+.paragraph{
+ margin: 10px 20px;
+
+}
+
+.paragraph-system.active{
+    display: block;
+}
+
+.paragraph-system.hide{
+    display: none;
+}
+
+.rotate{
+    transform: rotate(90deg);
+}
+
+
+
+.resources {
+    position: relative;
+}
+
+.resources::after {
+    content: "";
+    position: absolute;
+    left: -30px;
+    right: -30px;
+    bottom: 0;
+    height: 2px;
+  
+    background-color: gray;
+}
+}

@@ -1,0 +1,135 @@
+html,
+body {
+    width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.specifications {
+   
+    width: 100%;
+    
+      
+    
+    font-family: sans-serif;
+   
+    font-family: 'Inter', 'Roboto', sans-serif;
+   
+}
+
+.spicfications-arrow {
+      font-family: sans-serif;
+    /* padding: 0; */
+    font-family: 'Inter', 'Roboto', sans-serif;
+    /* margin: 5px 30px; */
+    /* margin: 10px 30px; */
+    font-size: 20px;
+    /* margin-top: 10px; */
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+
+}
+
+.specifications img{
+    margin: 3px 30px;
+}
+
+
+
+.spicfications-arrow {
+
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+
+
+.specifications {
+    width: 100%;
+    max-width: 420px;
+    margin: auto;
+    font-family: 'Inter', 'Roboto', sans-serif;
+}
+
+.specs-table {
+    width: 100%;
+    border-collapse:collapse;
+    border: 1px solid #dcdcdc;
+}
+
+.specs-table tr {
+    border-bottom: 1px solid #dcdcdc;
+}
+
+.specs-label {
+    background-color: #0b1a4a;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px;
+ 
+    width: 55%;
+}
+
+.specs-value {
+    background-color: #ffffff;
+    color: #333;
+    font-size: 20px;
+    padding: 14px;
+    text-align: center;
+}
+
+.specs-table tr:last-child {
+    border-bottom: none;
+}
+
+
+@media (max-width: 480px) {
+
+    .specs-label,
+    .specs-value {
+        font-size: 15px;
+        padding: 20px;
+    }
+
+
+
+    .tableSystems.active{
+        display: block;
+    }
+
+    .tableSystems.hide{
+        display: none;
+    }
+
+    .rotate{
+        transform: rotate(90deg);
+    }
+
+   
+    .specifications {
+    position: relative;
+}
+
+.specifications::after {
+    content: "";
+    position: absolute;
+    left: -30px;
+    right: -30px;
+    bottom: 0;
+    height: 2px;
+  
+    background-color: gray;
+}
+
+
+
+
+}

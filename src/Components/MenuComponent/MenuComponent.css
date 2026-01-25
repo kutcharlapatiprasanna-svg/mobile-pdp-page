@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@media screen and (max-width: 480px) {
+
+    .menu-component {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        border-bottom: 2px solid gray;
+
+        width: 100%;
+    }
+
+
+    .menu-left {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+    }
+
+    .menu1 {
+        width: 24px;
+        height: auto;
+    }
+
+    .menu-text {
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+
+    .menu-right {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+    }
+
+    .search,
+    .cart1 {
+        width: 22px;
+        height: auto;
+    }
+}
