@@ -1,15 +1,21 @@
 import React, { useState } from "react";
 import "./WheelChair.css";
-import wheelchair1 from "../../assets/wheelechair.jpg";
-import wheelchair2 from "../../assets/wheelchair2.webp";
-import wheelchair3 from "../../assets/wheelchair3.avif";
-import like from "../../assets/like.png";
+import wheelchair1 from "../../assets/Untitleddesign_33.webp";
+import wheelchair2 from "../../assets/5249.jpg";
+import wheelchair3 from "../../assets/Boxer_Pro_A_-1.webp";
+// import like from "../../assets/like.png";
+import like1 from "../../assets/white-image.png";
+import like2 from "../../assets/red-image.png"
+
 import share from "../../assets/share.png";
 
 const wheelchaires = [wheelchair1, wheelchair2, wheelchair3];
 
 const WheelChair = () => {
     const [activeIndex, setActiveIndex] = useState(0);
+
+    const [liked, setLiked] = useState(true);
+
 
     return (
         <div className="sports">
@@ -44,7 +50,20 @@ const WheelChair = () => {
                 <p className="item-text">Item # SSP218DDA-ELR</p>
 
                 <div className="item-actions">
-                    <img src={like} alt="Like" />
+                    {/* <img src={like} alt="Like" /> */}
+                    {/* <img
+                        src={like}
+                        alt="Like"
+                        className={`like-icon ${liked ? "active" : ""}`}
+                        onClick={() => setLiked(!liked)}
+                    /> */}
+                    <img
+                        src={liked ?like1: like2 }
+                        alt="Like"
+                        className="like-icon"
+                        onClick={() => setLiked(!liked)}
+                    />
+
                     <img src={share} alt="Share" />
                 </div>
             </div>
