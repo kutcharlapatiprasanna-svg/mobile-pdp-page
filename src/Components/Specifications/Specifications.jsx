@@ -6,7 +6,7 @@ const Specifications = () => {
 
     const [openArrow, setOpenArrow] = useState(false);
     return (
-        <div className='spicfications'>
+        <div className='spicifications'>
             <div className="spicfications-arrow">
                 <p>Specifications</p>
                 <img src={right} alt='g' 

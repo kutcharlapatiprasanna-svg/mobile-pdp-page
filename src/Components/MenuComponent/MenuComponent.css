@@ -1,49 +1,95 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+
+.menu-component {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 16px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e0e0e0;
+    /* position: relative; */
 }
 
 
-@media screen and (max-width: 480px) {
+.menu-left {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
 
-    .menu-component {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 20px;
-        border-bottom: 2px solid gray;
+.menu1 {
+    width: 22px;
+    height: 22px;
+}
 
-        width: 100%;
-    }
-
-
-    .menu-left {
-        display: flex;
-        align-items: center;
-        gap: 6px;
-    }
-
-    .menu1 {
-        width: 24px;
-        height: auto;
-    }
-
-    .menu-text {
-        font-size: 14px;
-        font-weight: 500;
-    }
+.menu-text {
+    font-size: 16px;
+    font-weight: 600;
+}
 
 
-    .menu-right {
-        display: flex;
-        align-items: center;
-        gap: 12px;
-    }
+.menu-right {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
 
-    .search,
-    .cart1 {
-        width: 22px;
-        height: auto;
-    }
+.search,
+.cart1 {
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+}
+
+.search-box {
+    width: 100%;
+    padding: 12px 16px;
+    /* background-color: #fafafa;
+    border-bottom: 1px solid #ddd; */
+}
+
+.search-box input {
+    width: 100%;
+    padding: 10px 12px;
+    font-size: 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+}
+
+.search-box input:focus {
+    border-color: #000;
+}
+
+.menu-dropdown {
+    width: 100%;
+    /* background-color: #ffffff; */
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.menu-dropdown p {
+    padding: 12px 16px;
+    margin: 0;
+    font-size: 15px;
+    cursor: pointer;
+    /* transition: background 0.2s ease; */
+}
+
+.menu-dropdown p:hover {
+    background-color: #f3f3f3;
+}
+
+
+.accesss {
+    font-weight: 600;
+}
+
+
+.hide {
+    display: none;
+}
+
+.active {
+    display: block;
 }
