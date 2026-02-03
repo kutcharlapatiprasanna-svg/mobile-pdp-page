@@ -1,203 +1,92 @@
+
 * {
-
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 
 
-.body{
-
-    padding: 0;
-    margin: 0;
-}
-.colors {
-    padding: 10px;
-    /* margin: 10px; */
-    /* width: 100%; */
-    /* max-width: 400px; */
-    background-color: hsl(0, 5%, 89%);
-    /* width: fit-content; */
+/* ACTIVE STATE (component scoped, mobile only) */
+@media (max-width: 768px) {
+  .tc-ball-active,
+  .tc-btn-active {
+    outline: 3px solid blue;
+    /* outline-offset: 3px; */
+  }
 }
 
-.colors p {
-    padding: 10px;
+.tc-colors-container {
+  padding: 10px 30px;
+  background-color: hsl(0, 5%, 89%);
 }
 
-
-
-
-.first-ball1 {
-    border-radius: 50%;
-    width: 35px;
-    height: 35px;
-    margin: 5px;
-    /* border-bottom: 2px solid red; */
-    background-color: red;
-
-}
-
-.first-ball2 {
-    border-radius: 50%;
-    width: 35px;
-    margin: 5px;
-    height: 35px;
-    background-color: blue;
-
-}
-
-.first-ball3 {
-    border-radius: 50%;
-    width: 35px;
-       margin: 5px;
-    height: 35px;
-    background-color: black;
-
-}
-
-.buttons {
-    display: flex;
-    margin-right: 90px;
+.tc-section-title {
+  padding: 10px 0;
+  font-weight: 500;
 }
 
 
-.btn {
-
-    gap: 15px;
-    border-radius: 40px;
-    font-size: 20px;
-    padding: 5px 20px;
-
-
+.tc-color-balls {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 5px 0;
 }
 
-.buttons .btn {
-    width: 100%;
-    margin: 5px;
-     border-color: blue;
-
-
+.tc-ball-red,
+.tc-ball-blue,
+.tc-ball-black {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  cursor: pointer;
 }
 
-
-.buttons2 {
-    display: flex;
-    margin-right: 90px;
-}
+.tc-ball-red { background-color: red; }
+.tc-ball-blue { background-color: blue; }
+.tc-ball-black { background-color: black; }
 
 
-.btn2 {
-    display: flex;
-    align-items: center;
-    align-items: center;
-
-    gap: 15px;
-    border-radius: 40px;
-    font-size: 20px;
-    padding: 5px 50px;
-    margin-right: 70px;
-
-
-}
-
-.buttons2 .btn2 {
-    width: 100%;
-    margin: 5px;
-
-}
-
-.btn2{
-    border-color: blue;
-}
-.btn2{
-    /* border: none; */
+.tc-buttons-seat,
+.tc-buttons-arm,
+.tc-buttons-rig {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
 }
 
 
-
-
-.buttons3 {
-    display: flex;
-    margin-right: 90px;
-    margin-bottom: 20px;
-      border-color: blue;
-    
+.tc-btn-seat {
+  border-radius: 40px;
+  font-size: 18px;
+  padding: 6px 20px;
+  background: white;
+  cursor: pointer;
 }
 
 
-.btn3 {
-    display: flex;
-    align-items: center;
-    align-items: center;
-
-    gap: 15px;
-    border-radius: 40px;
-    font-size: 20px;
-    padding: 5px 25px;
-    margin-right: 70px;
-
-
-}
-
-.buttons3 .btn3 {
-    width: 100%;
-    margin: 5px;
-
-}
-
-.btn3{
-    border-color: blue;
-}
-.btn3{
-   
-
-       /* border-bottom: 80px; */
+.tc-btn-arm {
+  border-radius: 40px;
+  font-size: 18px;
+  padding: 6px 40px;
+  background: white;
+  cursor: pointer;
 }
 
 
-.menu-component {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 15px;
+.tc-btn-rig {
+  border-radius: 40px;
+  font-size: 18px;
+  padding: 6px 25px;
+  background: white;
+  cursor: pointer;
 }
 
-.menu-left {
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-}
 
-.menu-text {
-    margin-left: 8px;
-    font-weight: bold;
-}
-
-.menu-right img {
-    margin-left: 15px;
-    cursor: pointer;
-}
-
-/* Dropdown menu */
-.menu-dropdown {
-    background-color: #fff;
-    /* border-top: 1px solid #ddd; */
-    padding: 10px;
-}
-
-.menu-dropdown ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.menu-dropdown li {
-    padding: 10px 5px;
-    /* border-bottom: 1px solid #eee; */
-    cursor: pointer;
-}
-
-.menu-dropdown li:hover {
-    background-color: #f5f5f5;
+.tc-ball-active,
+.tc-btn-active {
+  outline: 3px solid blue;
+  outline-offset: 3px;
 }

@@ -3,10 +3,16 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
 }
 
 .sports {
   margin: 20px;
+  padding-left: 15px;
+
+}
+.sports h1{
+ 
 }
 
 /* image container */
@@ -17,6 +23,7 @@
   align-items: center;
   justify-content: center;
   margin: 0 auto;
+  /* border: 2px solid red; */
 }
 
 .wheelchair-image-container img {
@@ -28,7 +35,9 @@
 /* headings */
 .sports h1 {
   font-family: "Arial Black", sans-serif;
-  padding: 0 30px;
+  /* padding: 0 30px; */
+  /* padding: 5px; */
+
 }
 
 /* item row */
@@ -41,7 +50,8 @@
 .item-text {
   font-size: 14px;
   color: #555;
-  padding: 10px 30px;
+  /* padding: 10px 30px; */
+ padding-right: 30px;
 }
 
 .item-actions {
@@ -65,7 +75,8 @@
 
 .final-one p {
   font-size: 13px;
-  padding-left: 30px;
+  /* padding-left: 30px; */
+   padding-right: 30px;
 }
 
 /* dots */
