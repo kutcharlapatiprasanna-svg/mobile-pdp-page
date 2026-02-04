@@ -1,21 +1,24 @@
 {
   "files": {
-    "main.css": "/mobile-pdp-page/static/css/main.fee6e7c5.css",
-    "main.js": "/mobile-pdp-page/static/js/main.0d54a680.js",
+    "main.css": "/mobile-pdp-page/static/css/main.a6f7e399.css",
+    "main.js": "/mobile-pdp-page/static/js/main.14212f9f.js",
     "static/js/453.82e88b51.chunk.js": "/mobile-pdp-page/static/js/453.82e88b51.chunk.js",
+    "static/media/white-image.png": "/mobile-pdp-page/static/media/white-image.ca7761fd2e3fa5a4f7fc.png",
+    "static/media/red-image.png": "/mobile-pdp-page/static/media/red-image.fc7be278991dadaf591f.png",
     "static/media/drivemedical.png": "/mobile-pdp-page/static/media/drivemedical.a8765a98a2345e8ff414.png",
     "static/media/wheelechair.jpg": "/mobile-pdp-page/static/media/wheelechair.47ff3e399ae2e2acb8ad.jpg",
-    "static/media/wheelchair2.webp": "/mobile-pdp-page/static/media/wheelchair2.9c867fcd4c70efd700fb.webp",
+    "static/media/5249.jpg": "/mobile-pdp-page/static/media/5249.fd51a372e65f1b3cf3b9.jpg",
     "static/media/heelstarp.jpg": "/mobile-pdp-page/static/media/heelstarp.3ded7a13c775fd87d6f3.jpg",
+    "static/media/Boxer_Pro_A_-1.webp": "/mobile-pdp-page/static/media/Boxer_Pro_A_-1.dea79ae782783d4af76c.webp",
+    "static/media/Untitleddesign_33.webp": "/mobile-pdp-page/static/media/Untitleddesign_33.e89a87d0a548ae620d05.webp",
     "static/media/settings_3.jpg": "/mobile-pdp-page/static/media/settings_3.ae2c9aaeb187893f32ef.jpg",
-    "static/media/wheelchair3.avif": "/mobile-pdp-page/static/media/wheelchair3.cb8539efce895587d5ca.avif",
     "index.html": "/mobile-pdp-page/index.html",
-    "main.fee6e7c5.css.map": "/mobile-pdp-page/static/css/main.fee6e7c5.css.map",
-    "main.0d54a680.js.map": "/mobile-pdp-page/static/js/main.0d54a680.js.map",
+    "main.a6f7e399.css.map": "/mobile-pdp-page/static/css/main.a6f7e399.css.map",
+    "main.14212f9f.js.map": "/mobile-pdp-page/static/js/main.14212f9f.js.map",
     "453.82e88b51.chunk.js.map": "/mobile-pdp-page/static/js/453.82e88b51.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fee6e7c5.css",
-    "static/js/main.0d54a680.js"
+    "static/css/main.a6f7e399.css",
+    "static/js/main.14212f9f.js"
   ]
 }
