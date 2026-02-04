@@ -15,6 +15,7 @@ const Accessories = () => {
   // States
   const [open, setOpen] = useState(false);
   const [cart, setCart] = useState([]);
+  //hdsbfvhjdv
 
   
   const handleAddToCart = (product) => {
@@ -24,7 +25,7 @@ const Accessories = () => {
 
  
   const handleSearchParts = () => {
-    alert("Search Parts button clicked!"); // simplest action
+    alert("search all parts heare!"); // simplest action
   };
 
   return (
