@@ -25,7 +25,7 @@ const Accessories = () => {
 
  
   const handleSearchParts = () => {
-    alert("search all parts heare!"); // simplest action
+    alert("search all parts here!"); // simplest action
   };
 
   return (
