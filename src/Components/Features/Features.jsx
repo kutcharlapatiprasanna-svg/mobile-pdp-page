@@ -10,7 +10,7 @@ const Features = () => {
     return (
         <div className='resources'>
             <div className='resources-process'>
-                <p>Resources/Downloads</p>
+                <p>Features</p>
                 <img src={right} alt='res'
                     onClick={() => setOpenArrow(!openArrow)}
                     className={openArrow ? "rotate" : ""} />

@@ -18,6 +18,12 @@
 
 }
 
+.things-images .book{
+    /* border: 2px solid red; */
+    width: 200px;
+    height: 100px;
+}
+
 
 .resources-img{
     display: flex;

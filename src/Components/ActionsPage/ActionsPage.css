@@ -1,112 +1,105 @@
 * {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 @media screen and (max-width: 480px) {
 
 .options {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 20px;
-    font-size: 20px;
-    margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0 20px;
+  font-size: 20px;
 }
 
 .actions {
-    /* margin: 10px 30px; */
-    /* padding: 10px; */
-
-        margin: 10px 20px;
-    padding: 10px;
-      font-family: sans-serif;
-}
-.actions h1{
-    /* border: 2px solid red; */
-    margin-top: 20px;
+  margin: 10px 20px;
+  padding: 10px;
+  font-family: sans-serif;
+  position: relative;
 }
 
-.actions-demo{
-    /* display: none; */
+.actions h1 {
+  margin-top: 20px;
 }
 
-.right-arrow {
-    display: flex;
-    margin: 10px 0;
-    font-size: 17px;
-    color: skyblue;
-}
-.right-arrow .showing{
-
-    /* border: 2px solid gray; */
-    margin-bottom: 4px;
-}
-
-.right {
-    color: red;
-   
-}
-
-.second-One {
-    margin: 10px 0;
-    margin-top: 30px;
-    width: 100%;
-    border-top: 2px solid gray;
-    border-bottom: 2px solid gray;
-    background-color: whitesmoke;
-}
-
-.third-one {
-    border-bottom: 2px solid gray;
-}
-
-
-.fourth-one {
-    position: relative;
-}
-
-.fourth-one::after {
-    content: "";
-    position: absolute;
-    left: -30px;
-    right: -30px;
-    bottom: 0;
-    height: 2px;
-    background-color: gray;
-}
-
-
-
- .actionsButton.hide {
-    display: none;
+/* Toggle section */
+.actionsButton.hide {
+  display: none;
 }
 
 .actionsButton.active {
-    display: block;
-} 
-
-
-
-.actions {
-    position: relative;
+  display: block;
 }
 
+/* Show Details row */
+.right-arrow {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin: 6px 0;           /* 🔑 reduced spacing */
+  font-size: 17px;
+  color: skyblue;
+  cursor: pointer;
+}
+
+.right {
+  width: 18px;
+  height: 18px;
+  transition: transform 0.3s ease;
+}
+
+/* Details text */
+.details {
+  font-size: 14px;
+  color: #444;
+  margin: 6px 0 8px 0;     /* 🔑 keeps border close */
+  line-height: 1.4;
+}
+
+/* Section borders */
+.second-One {
+  margin-top: 20px;
+  padding-bottom: 8px;
+  border-top: 2px solid gray;
+  border-bottom: 2px solid gray;
+  background-color: whitesmoke;
+}
+
+.third-one {
+  padding-bottom: 8px;
+  border-bottom: 2px solid gray;
+}
+
+.fourth-one {
+  position: relative;
+  padding-bottom: 8px;
+}
+
+.fourth-one::after {
+  content: "";
+  position: absolute;
+  left: -30px;
+  right: -30px;
+  bottom: 0;
+  height: 2px;
+  background-color: gray;
+}
+
+/* Bottom divider */
 .actions::after {
-    content: "";
-    position: absolute;
-    left: -30px;
-    right: -30px;
-    bottom: 0;
-    height: 2px;
-  
-    background-color: gray;
+  content: "";
+  position: absolute;
+  left: -30px;
+  right: -30px;
+  bottom: 0;
+  height: 2px;
+  background-color: gray;
 }
 
-.rotate{
-
-        transform: rotate(90deg);
-        
-
+/* Rotate arrows */
+.rotate {
+  transform: rotate(90deg);
 }
 
 }

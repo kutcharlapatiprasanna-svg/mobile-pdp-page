@@ -111,3 +111,8 @@ body {
   display: block;
   /* font-weight: bold; */
 }
+
+
+.add-btn.added {
+  background: #2e7d32;
+}

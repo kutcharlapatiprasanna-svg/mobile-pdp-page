@@ -60,10 +60,19 @@
 }
 
 /* icons */
-.like-icon,
-.share-icon {
-  width: 50px;
+.like-icon{
+  width: 40px;
+  height: 50px;
   cursor: pointer;
+}
+
+
+.item-actions .share{
+  /* border: 2px solid red; */
+  margin-right: 30px;
+    width: 30px;
+  height: 50px;
+ 
 }
 
 /* footer row */
@@ -98,3 +107,6 @@
 .dot.active {
   background-color: #000;
 }
+
+
+
